@@ -6,7 +6,7 @@ class Item extends React.Component {
     }
 
     render () {
-        return(<p> {itemID} </p>);
+        return(<p> ITEM </p>);
     }
     
 

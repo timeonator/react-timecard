@@ -1,7 +1,8 @@
-import React from 'React';
+import React from 'react';
 
 class project extends React.Component{
-    render(props){
-<pre> project</pre>
+    render(){
+        return (<pre> project</pre>);
     }
 }
+export default project;
