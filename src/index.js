@@ -39,6 +39,7 @@ function App() {
     <div className="App">
         <TimeNavBar/>
         <Client 
+            id = {0}
             name={clientData[0].clientName}
             address = {clientData[0].clientAddress}/>
         <Item itemId={1} projectId={0} name="scaffolding" description="code scaffolding"/>  
@@ -47,7 +48,7 @@ function App() {
             name="This Project Name" 
             description ="sample project description"
         />
-        <Work workId={0} time={20} problems="none"/>
+        <Work userId={0} itemId={0} time={20} problems="none"/>
         <header className="App-header">
 
         </header>
