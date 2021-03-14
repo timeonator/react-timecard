@@ -47,7 +47,7 @@ function App() {
             name="This Project Name" 
             description ="sample project description"
         />
-        <Work />
+        <Work workId={0} time={20} problems="none"/>
         <header className="App-header">
 
         </header>
