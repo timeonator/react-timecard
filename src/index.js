@@ -6,14 +6,16 @@ import TimeNavBar from './time-navbar';
 import Client from './components/client'
 import Project from './components/project';
 import Item from './components/item';
+import Work from './components/work';
 import './App.css';
 function App() {
     return (
     <div className="App">
         <TimeNavBar/>
         <Client />
+        <Item />  
         <Project />
-        <Item />
+        <Work />
         <header className="App-header">
 
         </header>
