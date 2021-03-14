@@ -7,6 +7,7 @@ import Client from './components/client'
 import Project from './components/project';
 import Item from './components/item';
 import Work from './components/work';
+import TimeOn from './components/time-on'
 import './App.css';
 
 
@@ -38,6 +39,7 @@ function App() {
     return (
     <div className="App">
         <TimeNavBar/>
+        <TimeOn>Start</TimeOn>
         <Client 
             id = {0}
             name={clientData[0].clientName}
