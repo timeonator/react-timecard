@@ -8,8 +8,8 @@ class Work extends React.Component {
             <div>id: {this.props.workID}</div>
             <div>time: {this.props.time}</div>
             <div>problems: {this.props.problems}</div>
-
-        </div>);
+        </div>
+        );
     }
 }
 export default Work;
